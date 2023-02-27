@@ -16,6 +16,9 @@ import { CardActionArea } from "@mui/material";
 import "../styles/configrator.css";
 import CssBaseline from "@mui/material/CssBaseline";
 import AOS from "aos";
+import hexagon from "../assets/hexagon.svg";
+import triangle from "../assets/triangle.svg";
+import square from "../assets/square.svg";
 import { useState, useEffect } from "react";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 // ..
@@ -24,8 +27,8 @@ AOS.init();
 function Configrator() {
   const [check, setCheck] = useState(1);
   var cc = check;
-  var left="<";
-  var right=">";
+  var left = "<";
+  var right = ">";
 
   const [uspvisible, setuSpvisible] = useState("visible");
   const [ucrvisible, setuCrvisible] = useState("");
@@ -114,7 +117,6 @@ function Configrator() {
       setSareau("usarea");
       setSaream("");
       setSareab("");
-
     } else if (check == 2) {
       setSareau("");
       setSaream("sarea");
@@ -131,34 +133,62 @@ function Configrator() {
       <div className="get1">
         <div className={`get11 ${sareau}`}>
           <div className="square u">
-            <div className={`selected sport ${uspvisible}`}></div>
-            <div className={`selected cruiser ${ucrvisible}`}></div>
-            <div className={`selected comuter ${ucmvisible}`}></div>
+            <div className={`selected sport ${uspvisible}`}>
+              <img className="svg" src={square} alt="React Logo" />
+            </div>
+            <div className={`selected cruiser ${ucrvisible}`}>
+              <img className="svg" src={hexagon} alt="React Logo" />
+            </div>
+            <div className={`selected comuter ${ucmvisible}`}>
+              <img className="svg" src={triangle} alt="React Logo" />
+            </div>
           </div>
         </div>
         <div className={`get12 ${saream}`}>
           <div className="square m">
-            <div className={`selected sport ${mspvisible}`}></div>
-            <div className={`selected cruiser ${mcrvisible}`}></div>
-            <div className={`selected comuter ${mcmvisible}`}></div>
+            <div className={`selected sport ${mspvisible}`}>
+              <img className="svg" src={square} alt="React Logo" />
+            </div>
+            <div className={`selected cruiser ${mcrvisible}`}>
+              <img className="svg" src={hexagon} alt="React Logo" />
+            </div>
+            <div className={`selected comuter ${mcmvisible}`}>
+              <img className="svg" src={triangle} alt="React Logo" />
+            </div>
           </div>
         </div>
         <div className={`get13 ${sareab}`}>
           <div className="square b">
-            <div className={`selected sport ${bspvisible}`}></div>
-            <div className={`selected cruiser ${bcrvisible}`}></div>
-            <div className={`selected comuter ${bcmvisible}`}></div>
+            <div className={`selected sport ${bspvisible}`}>
+              <img className="svg" src={square} alt="React Logo" />
+            </div>
+            <div className={`selected cruiser ${bcrvisible}`}>
+              <img className="svg" src={hexagon} alt="React Logo" />
+            </div>
+            <div className={`selected comuter ${bcmvisible}`}>
+              <img className="svg" src={triangle} alt="React Logo" />
+            </div>
           </div>
         </div>
         <div className="get14">
-          <div onClick={changeDown} className="leftButton">{left}</div>
-          
-          <div onClick={changeUp} className="rightButton">{right}</div>
+          <div onClick={changeDown} className="leftButton">
+            {left}
+          </div>
+
+          <div onClick={changeUp} className="rightButton">
+            {right}
+          </div>
         </div>
         <div className="get15">
-          <div onClick={setSport} className="selecterSport">Sport</div>
-          <div onClick={setCruiser} className="selecterCruiser">Cruiser</div>
-          <div onClick={setComuter} className="selecterComuter">Comuter</div>
+          <div onClick={setSport} className="selecterSport">
+            Sport
+          </div>
+          <div onClick={setCruiser} className="selecterCruiser">
+            Cruiser
+          </div>
+          <div onClick={setComuter} className="selecterComuter">
+            Comuter
+          </div>
         </div>
       </div>
       <div className="get2">
