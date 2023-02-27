@@ -1,0 +1,87 @@
+.header{
+    position: fixed;
+
+    background: rgba(0, 0, 0, 0.3);
+
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+
+    color: white;
+    width: 100%;
+    height: 70px;
+    z-index: 10;
+    padding: 0 10% 0 10%;
+    border-bottom:rgb(255, 255, 255,0.5) solid 1px ;
+    transition: 0.3s;
+}   
+
+.forpadding{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.logo{
+
+    height: 100%;
+    min-width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.svgLogo{
+    max-height: 60%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: white;
+}
+
+.texts{
+    min-width: 80%;
+    min-height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hbline{
+    width: 0%;
+    height: 1px;
+    background-color: rgba(255,215,0, 1);
+    transition:0.3s;
+    margin: auto;
+}
+
+.button{
+    color :rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 50;
+    padding:0 5%;
+    transition: 0.3s;
+}
+
+.button p {
+    
+    transition: 0.5s;
+
+}
+
+.button p:hover {
+    color: rgba(255,255,255, 1);;
+    cursor: pointer;
+}
+
+.button p:hover .hbline{
+    width: 100%;
+    background-color: rgba(255,215,0, 1);;
+}
+
+.button:hover{
+    background-color: rgba(0, 35, 60, 0.5);
+}
