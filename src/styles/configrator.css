@@ -1,249 +1,327 @@
-.configrator{
-    width: 90%;
-    height: 500px;
-    background-color: rgba(0,0,0,0.2);
-    border-radius: 50px;
-    -webkit-box-shadow: 0px 20px 41px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 20px 41px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 20px 41px 0px rgba(0,0,0,0.75);
-    border: 2px solid rgba(255,255,255,0.1);
-    padding: 5%;
-    display: flex;
-    backdrop-filter: blur(100px);
-    -webkit-backdrop-filter: blur(100px);
+.configrator {
+  width: 90%;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  -webkit-box-shadow: 0px 20px 41px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 20px 41px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 20px 41px 0px rgba(0, 0, 0, 0.75);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  padding: 5%;
+  display: flex;
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(100px);
 }
 
-.get1{
-    width: 50%;
-    height: 100%;
-    background-color: transparent;
+.get1 {
+  width: 50%;
+  height: 100%;
+  background-color: transparent;
 }
-.get2{
-    width: 50%;
-    height: 100%;
-    background-color: blue;
-}
-
-.get11{
-    width: 100%;
-    height: 22%;
-    background-color:transparent;
-    display: flex;
-    transition: 0.5s;
-}
-.get12{
-    width: 100%;
-    height: 22%;
-    background-color:transparent;
-    display: flex;
-    transition: 0.5s;
-}
-.get13{
-    width: 100%;
-    height: 22%;
-    background-color:transparent;
-    display: flex;
-    transition: 0.5s;
-}
-.get14{
-    width: 100%;
-    height: 17%;
-    display: flex;
-    justify-content: space-evenly;
-}
-.get15{
-    width: 100%;
-    height: 17%;
-    background-color: transparent;
-    display: flex;
-    justify-content: space-evenly;
+.get2 {
+  width: 50%;
+  height: 100%;
+  background-color: blue;
 }
 
-.get21{
-    width: 100%;
-    height: 50%;
-    background-color: rgb(153, 153, 153);
-    
+.get11 {
+  width: 100%;
+  height: 22%;
+  background-color: transparent;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
 }
-.get22{
-    width: 100%;
-    height: 50%;
-    background-color: rgb(52, 52, 52);
+.get12 {
+  width: 100%;
+  height: 22%;
+  background-color: transparent;
+  display: flex;
+  transition: 0.5s;
+  align-items: center;
+  justify-content: center;
 }
-
-.square{
-    width: 80%;
-    height: 100px;
-    background-color: white;
-    margin: auto;
-    position: relative;
+.get13 {
+  width: 100%;
+  height: 22%;
+  background-color: transparent;
+  display: flex;
+  transition: 0.5s;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5%;
 }
-
-.u{
-    margin-bottom:0;
+.get14 {
+  width: 100%;
+  height: 17%;
+  display: flex;
+  justify-content: space-evenly;
 }
-.m{
-    height: 100%;
-}
-.b{
-    margin-top:0;
-}
-
-.leftButton{
-    height: 80%;
-    width: 20%;
-    margin: auto 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgba(255,255,255,0.1);
-    background-color: rgba(255,255,255,0.1);
-    border-radius: 20px;
-    cursor: pointer;
-    transition: 0.1s;
-}
-.leftButton:hover{
-
-    color: rgba(255,255,255,1);
-    background-color: rgba(255,255,255,0.3);
-
-}
-.selecterName{
-    background-color:white;
-    height: 80%;
-    width: 20%;
-    margin: auto 0;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.rightButton{
-    background-color:white;
-    height: 80%;
-    width: 20%;
-    margin: auto 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgba(255,255,255,0.1);
-    background-color: rgba(255,255,255,0.1);
-    border-radius: 20px;
-    cursor: pointer;
-    transition: 0.1s;
-}
-.rightButton:hover{
-
-    color: rgba(255,255,255,1);
-    background-color: rgba(255,255,255,0.3);
-
+.get15 {
+  width: 100%;
+  height: 17%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.selecterSport{
-    background-color:white;
-    height: 80%;
-    width: 20%;
-    margin: auto 0;
-    color: rgba(255,255,255,0.1);
-    background-color: rgba(255, 0, 0, 0.1);
-    border-radius: 20px;
-    cursor: pointer;
-    transition: 0.1s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.get21 {
+  width: 100%;
+  height: 50%;
+  background-color: rgb(153, 153, 153);
 }
-.selecterSport:hover{
-    color: rgba(255,255,255,1);
-    background-color: rgba(255, 0, 0, 0.3);
-}
-.selecterCruiser{
-    background-color:white;
-    height: 80%;
-    width: 20%;
-    margin: auto 0;
-    color: rgba(255,255,255,0.1);
-    background-color: rgba(0, 255, 0, 0.1);
-    border-radius: 20px;
-    cursor: pointer;
-    transition: 0.1s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.selecterComuter{
-    background-color:white;
-    height: 80%;
-    width: 20%;
-    margin: auto 0;
-    color: rgba(255,255,255,0.1);
-    background-color: rgba(255, 255, 0, 0.1);
-    border-radius: 20px;
-    cursor: pointer;
-    transition: 0.1s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.selecterComuter:hover{
-    color: rgba(255,255,255,1);
-    background-color: rgba(255, 255, 0, 0.3);
-}
-.selecterCruiser:hover{
-    color: rgba(255,255,255,1);
-    background-color: rgba(0, 255, 0, 0.3);
-}
-.sport{
-    background-color: red;
-}
-.cruiser{
-    background-color: green;
-}
-.comuter{
-    background-color: yellow;
-}
-.selected{
-    position:absolute;
-    height: 100%;
-    width: 100%;
-    visibility: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.get22 {
+  width: 100%;
+  height: 50%;
+  background-color: rgb(52, 52, 52);
 }
 
-.visible{
-    visibility: visible;
+.square {
+  width: 80%;
+  height: 100%;
+  background-color: transparent;
+
+  position: relative;
 }
 
-.get{
-    visibility: visible;
+.leftButton {
+  height: 80%;
+  width: 20%;
+  margin: auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.leftButton:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.selecterName {
+  background-color: white;
+  height: 80%;
+  width: 20%;
+  margin: auto 0;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightButton {
+  background-color: white;
+  height: 80%;
+  width: 20%;
+  margin: auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.rightButton:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
-
-.selectDisplay{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    
+.selecterSport {
+  background-color: white;
+  height: 80%;
+  width: 20%;
+  margin: auto 0;
+  color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 0, 0, 0.1);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.selecterSport:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 0, 0, 0.3);
+}
+.selecterCruiser {
+  background-color: white;
+  height: 80%;
+  width: 20%;
+  margin: auto 0;
+  color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 255, 0, 0.1);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.selecterComuter {
+  background-color: white;
+  height: 80%;
+  width: 20%;
+  margin: auto 0;
+  color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 0, 0.1);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.selecterComuter:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 0, 0.3);
+}
+.selecterCruiser:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 255, 0, 0.3);
+}
+.sport {
+  background-color: transparent;
+}
+.cruiser {
+  background-color: transparent;
+}
+.comuter {
+  background-color: transparent;
+}
+.selected {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.sarea{
-   
-    background-color: rgba(255, 255, 255, 0.2);
+.visible {
+  visibility: visible;
 }
-.usarea{
-   border-top-left-radius: 30px;
-   border-top-right-radius: 30px;
-    background-color: rgba(255, 255, 255, 0.2);
-}
-.bsarea{
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
 
-    background-color: rgba(255, 255, 255, 0.2);
+.get {
+  visibility: visible;
 }
-.svg{
-    height: 100%;
+
+.selectDisplay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.sarea {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.usarea {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.bsarea {
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.ssvg svg {
+  height: 100%;
+  width: 100%;
+  fill: rgb(190, 190, 190);
+}
+.dice {
+  height: 100%;
+  width: 100%;
+}
+.selected {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.selected svg {
+  height: 100%;
+  width: 100%;
+
+  opacity: 100%;
+}
+.selected path {
+  fill: white;
+opacity: 0.3;
+
+  animation: shp 2s ease-in-out;
+}
+.selected polygon {
+  fill: white;
+  opacity: 0.3;
+
+  animation: shp 2s ease-in-out;
+}
+
+@keyframes shp {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: red;
+  }
+}
+.get21 {
+  background-color: transparent;
+
+  font-size: 50px;
+  position: relative;
+}
+
+.get2 {
+  background-color: transparent;
+}
+.logoConfigure {
+  position: absolute;
+  height:50%;
+  padding-left: 5%;
+  background-color: transparent;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+}
+.logoImg {
+  height: 0;
+  opacity: 30%;
+}
+.visibeLogo {
+  height: 70%;
+}
+.logoPictureText {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 70px;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.9);
+}
+.logoConfigure img{
+  animation: imgchange 2s ease-in-out;
+}
+
+@keyframes imgchange {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
