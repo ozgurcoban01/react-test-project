@@ -309,9 +309,10 @@ opacity: 0.3;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 70px;
+  font-size: 30px;
   background-color: transparent;
   color: rgba(255, 255, 255, 0.9);
+  text-align: center;
 }
 .logoConfigure img{
   animation: imgchange 2s ease-in-out;
@@ -324,4 +325,40 @@ opacity: 0.3;
   100% {
     opacity: 100%;
   }
+}
+
+.get22{
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.content-tests{
+  min-width: 50%;
+}
+.content-tests .upp{
+  font-size: 30px;
+  padding: 20px;
+  margin: 20px;
+  border: 10px solid rgba(255, 255, 255, 0.5);
+  border-radius: 100px;
+
+}
+.content-tests .midd{
+  font-size: 30px;
+  padding: 20px;
+  margin: 20px;
+  border: 10px solid rgba(255, 255, 255, 0.5);
+  border-radius: 100px;
+
+}
+.content-tests .buttom{
+  font-size: 30px;
+  padding: 20px;
+  margin: 20px;
+  border: 10px solid rgba(255, 255, 255, 0.5);
+  border-radius: 100px;
+
 }
